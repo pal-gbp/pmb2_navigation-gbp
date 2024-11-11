@@ -2,6 +2,30 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.5.0 (2024-10-25)
+------------------
+* Merge branch 'abr/fix/mppi' into 'humble-devel'
+  Use mppi when composition
+  See merge request robots/pmb2_navigation!102
+* Use mppi when composition
+* Contributors: antoniobrandi
+
+4.4.0 (2024-10-18)
+------------------
+* Merge branch 'man/feat/stress-tests' into 'humble-devel'
+  stress test config
+  See merge request robots/pmb2_navigation!98
+* stress test config
+* Contributors: antoniobrandi, martinaannicelli
+
+4.3.0 (2024-10-17)
+------------------
+* Merge branch 'man/feat/nav-rviz-config' into 'humble-devel'
+  added unless condition to rviz
+  See merge request robots/pmb2_navigation!100
+* added unless condition to rviz
+* Contributors: antoniobrandi, martinaannicelli
+
 4.2.0 (2024-09-03)
 ------------------
 * Merge branch 'man/feat/docking' into 'humble-devel'
