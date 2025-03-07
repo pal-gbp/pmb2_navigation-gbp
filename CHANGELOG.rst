@@ -2,6 +2,49 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.11.0 (2025-02-04)
+-------------------
+
+4.10.0 (2025-01-30)
+-------------------
+* uniform serial number in all laser
+* pass sn down as string
+* using serial_number for sick lasers
+* Contributors: antoniobrandi
+
+4.9.0 (2025-01-22)
+------------------
+
+4.8.0 (2025-01-21)
+------------------
+* added support to multiple topic remappings
+* Contributors: andreacapodacqua
+
+4.7.0 (2024-12-02)
+------------------
+* Merge branch 'abr/feat/deps-and-specs' into 'humble-devel'
+  nav deps and specs
+  See merge request robots/pmb2_navigation!108
+* nav deps and specifics
+* fix dep
+* Contributors: andreacapodacqua, antoniobrandi
+
+4.6.2 (2024-11-22)
+------------------
+
+4.6.1 (2024-11-21)
+------------------
+
+4.6.0 (2024-11-14)
+------------------
+* Merge branch 'abr/feat/nav-params' into 'humble-devel'
+  register nav variables and pipelines
+  See merge request robots/pmb2_navigation!103
+* register modules
+* support multi-robot
+* using new pipelines architecture
+* Contributors: antoniobrandi
+
 4.5.0 (2024-10-25)
 ------------------
 
