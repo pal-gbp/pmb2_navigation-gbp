@@ -2,6 +2,56 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.11.0 (2025-02-04)
+-------------------
+* Update pmb2_nav_bringup.launch.py
+* Contributors: antoniobrandi
+
+4.10.0 (2025-01-30)
+-------------------
+
+4.9.0 (2025-01-22)
+------------------
+
+4.8.0 (2025-01-21)
+------------------
+
+4.7.0 (2024-12-02)
+------------------
+* Merge branch 'abr/feat/deps-and-specs' into 'humble-devel'
+  nav deps and specs
+  See merge request robots/pmb2_navigation!108
+* nav deps and specifics
+* Contributors: antoniobrandi
+
+4.6.2 (2024-11-22)
+------------------
+* Merge branch 'abr/fix/suppress-footprint-error' into 'humble-devel'
+  suppress footprint error
+  See merge request robots/pmb2_navigation!107
+* suppress footprint error
+* Contributors: antoniobrandi
+
+4.6.1 (2024-11-21)
+------------------
+* Merge branch 'abr/fix/rviz' into 'humble-devel'
+  start rviz with use_public_sim
+  See merge request robots/pmb2_navigation!106
+* start rviz with use_public_sim
+* Contributors: antoniobrandi
+
+4.6.0 (2024-11-14)
+------------------
+* Merge branch 'abr/feat/nav-params' into 'humble-devel'
+  register nav variables and pipelines
+  See merge request robots/pmb2_navigation!103
+* disable costmap filters for normal nav
+* register modules
+* update public sim paths
+* support multi-robot
+* using new pipelines architecture
+* Contributors: antoniobrandi
+
 4.5.0 (2024-10-25)
 ------------------
 * Merge branch 'abr/fix/mppi' into 'humble-devel'
