@@ -2,6 +2,14 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.17.0 (2025-06-03)
+-------------------
+* support namespaces
+* Contributors: antoniobrandi
+
+4.16.0 (2025-05-14)
+-------------------
+
 4.15.0 (2025-05-07)
 -------------------
 * fix laser sim
