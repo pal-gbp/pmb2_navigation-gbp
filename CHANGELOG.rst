@@ -2,6 +2,16 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.17.0 (2025-06-03)
+-------------------
+* support namespaces
+* Contributors: antoniobrandi
+
+4.16.0 (2025-05-14)
+-------------------
+* Added pal_maps exec_depend
+* Contributors: martinaannicelli
+
 4.15.0 (2025-05-07)
 -------------------
 
