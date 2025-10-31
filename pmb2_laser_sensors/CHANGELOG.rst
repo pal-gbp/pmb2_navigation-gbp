@@ -2,6 +2,19 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.18.2 (2025-10-22)
+-------------------
+
+4.18.1 (2025-09-10)
+-------------------
+* fix serial_port
+* Contributors: andreacapodacqua
+
+4.18.0 (2025-07-10)
+-------------------
+* Add diagnostic analyzers
+* Contributors: Noel Jimenez
+
 4.17.0 (2025-06-03)
 -------------------
 * support namespaces
