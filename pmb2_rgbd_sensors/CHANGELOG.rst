@@ -2,6 +2,19 @@
 Changelog for package pmb2_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.18.2 (2025-10-22)
+-------------------
+* removed camera namespace from realsense driver
+* Contributors: martinaannicelli
+
+4.18.1 (2025-09-10)
+-------------------
+
+4.18.0 (2025-07-10)
+-------------------
+* Add diagnostic analyzers
+* Contributors: Noel Jimenez
+
 4.17.0 (2025-06-03)
 -------------------
 * support namespaces
