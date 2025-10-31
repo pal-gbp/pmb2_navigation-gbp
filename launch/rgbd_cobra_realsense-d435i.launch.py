@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
+
+from ament_index_python import get_package_share_directory
+
 from dataclasses import dataclass
 
 from launch import LaunchDescription
@@ -81,7 +85,7 @@ def declare_actions(
                 package='realsense2_camera',
                 plugin='realsense2_camera::RealSenseNodeFactory',
                 name=roof_camera_node,
-                namespace='roof_rgbd_camera',
+                namespace='',
                 parameters=roof_camera_config["parameters"],
                 remappings=roof_camera_config["remappings"],
             ),
@@ -90,7 +94,7 @@ def declare_actions(
                 package='realsense2_camera',
                 plugin='realsense2_camera::RealSenseNodeFactory',
                 name=base_camera_node,
-                namespace='base_rgbd_camera',
+                namespace='',
                 parameters=base_camera_config["parameters"],
                 remappings=base_camera_config["remappings"],
             ),
@@ -98,3 +102,16 @@ def declare_actions(
     )
 
     launch_description.add_action(camera_components)
+
+    rgbd_analyzer = Node(
+        package='diagnostic_aggregator',
+        executable='add_analyzer',
+        namespace='pmb2_rgbd_sensors',
+        output='screen',
+        emulate_tty=True,
+        parameters=[
+            os.path.join(
+                get_package_share_directory('pmb2_rgbd_sensors'),
+                'config', 'rgbd_analyzers.yaml')],
+    )
+    launch_description.add_action(rgbd_analyzer)
