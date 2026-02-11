@@ -2,6 +2,17 @@
 Changelog for package pmb2_rgbd_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.21.0 (2026-01-22)
+-------------------
+
+4.20.0 (2025-12-11)
+-------------------
+* Point Cloud filter pipeline
+* Contributors: antoniobrandi
+
+4.19.0 (2025-12-10)
+-------------------
+
 4.18.2 (2025-10-22)
 -------------------
 * removed camera namespace from realsense driver
