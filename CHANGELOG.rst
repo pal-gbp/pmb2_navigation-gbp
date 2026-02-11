@@ -2,6 +2,19 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.21.0 (2026-01-22)
+-------------------
+* added navigation skills
+* Contributors: antoniobrandi
+
+4.20.0 (2025-12-11)
+-------------------
+
+4.19.0 (2025-12-10)
+-------------------
+* Use path drawer
+* Contributors: antoniobrandi
+
 4.18.2 (2025-10-22)
 -------------------
 
