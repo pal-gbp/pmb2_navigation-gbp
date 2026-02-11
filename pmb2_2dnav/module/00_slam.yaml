@@ -1,2 +1,0 @@
-slam:
-  launch: "pmb2_2dnav slam.launch.py"
